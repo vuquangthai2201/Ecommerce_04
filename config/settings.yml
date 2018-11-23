@@ -1,0 +1,7 @@
+user:
+  validate:
+    name_max_len: 50
+    email_max_len: 255
+userhelper:
+  size:
+    size_len: 80
