@@ -1,0 +1,41 @@
+en:
+  static_pages:
+    home: 
+      h1_text: let come and by my laptop
+      h2_text: let come and by my smart phone
+      h3_text: let come and by my motorbike
+      previous_text: Previous
+      next_text: Next
+      signup_text: Sign up today
+  layouts:
+    header:
+      mystore_text: MYSTORE
+      home_text: Home
+      login_text: Log in
+      signup_text: Sign up
+      categories_text: Categories
+      laptop_text: Lap top
+      smartphone_text: Smart phone
+      motorbike_text: Motorbike
+      another_text: Another
+    footer:
+      back_to_top: Back to top
+      info: 2017-2018 Company, Inc.
+      privacy: Privacy
+      terms: Terms
+  shared:
+    error:
+      form: The form contains
+      errors_count:
+        one: 1 error
+        other: "%{count} errors"
+  users:
+    new:
+      title: Sign up
+      confirm: Confirmation
+      name_text: name
+      email_text: email
+      password_text: password
+      password_confirmation_text: password confirmation
+      create_account: Create my account
+
