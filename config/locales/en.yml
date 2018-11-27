@@ -18,11 +18,20 @@ en:
       smartphone_text: Smart phone
       motorbike_text: Motorbike
       another_text: Another
+      seach: Search
     footer:
       back_to_top: Back to top
       info: 2017-2018 Company, Inc.
       privacy: Privacy
       terms: Terms
+  sessions:
+    new:
+      title: Log in
+      email_text: email
+      password_text: password
+      sign_up_text: Sign up now!
+      remember_me_text: remember_me
+      remember_text: Remember me on this computer
   shared:
     error:
       form: The form contains
@@ -38,4 +47,18 @@ en:
       password_text: password
       password_confirmation_text: password confirmation
       create_account: Create my account
+    user:
+      delete_text: delete
+      confirm_text: You sure?
+    edit:
+      title: Edit user
+      confirm: Confirmation
+      profile_text: Update your profile
+      name_text: name
+      email_text: email
+      password_text: password
+      password_confirmation_text: password confirmation
+      save_text: Save changes
+    index:
+      title: All users
 

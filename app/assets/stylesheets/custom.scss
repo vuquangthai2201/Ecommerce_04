@@ -2,45 +2,46 @@
 @import "bootstrap";
 
 $state-danger-text: red;
+$gray-lighter: gray;
 
 /* footer */
 
 footer {
-margin-top: 70px;
-padding-top: 5px;
-border-top: 1px solid #eaeaea;
-color: #777;
+  margin-top: 70px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
 }
 
 footer a {
-color: #555;
+  color: #555;
 }
 
 footer a:hover {
-color: #222;
+  color: #222;
 }
 
 footer small {
-float: left;
+  float: left;
 }
 
 footer ul {
-float: right;
-list-style: none;
+  float: right;
+  list-style: none;
 }
 
 footer ul li {
-float: left;
-margin-left: 15px;
+  float: left;
+  margin-left: 15px;
 }
 
 .gravatar {
-float: left;
-margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 .gravatar_edit {
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 /* forms */
@@ -48,7 +49,8 @@ margin-top: 50px;
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
-  margin-bottom: 15px;
+  margin: auto;
+  margin-top: 30px;
 }
 
 input {
@@ -67,5 +69,30 @@ input {
   @extend .has-error !optional;
   .form-control {
     color: $state-danger-text;
+  }
+}
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
+
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
   }
 }
